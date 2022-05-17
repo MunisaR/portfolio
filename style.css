@@ -7,8 +7,45 @@
 body{
     background-color: #030303;
     font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
 }
 
+/*navbar*/
+.navigation-bar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #030303;
+    color: #C20114;
+    height: 50px;
+
+}
+.links {
+    height: 100%;
+}
+.links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.links li {
+    list-style: none;
+}
+.links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+
+.links li a:hover {
+    color: #a24f5e;
+    cursor: pointer;
+}
 /*shiny text animation*/
 .text-wrapper{
     text-align: center;
@@ -113,4 +150,7 @@ body{
     }
 }
 /*cube animation*/
+
+
+
 
