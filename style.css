@@ -161,7 +161,14 @@ body{
 
 /*aboutpage*/
 .content {
-    color: aliceblue;
+    color: #FEEFEA;
+}
+span{
+    color: #C20114;
+    font-size: 20px;
+    font-weight: bold;
+    /*font-style: italic;*/
+    font-family: 'Montserrat', sans-serif;
 }
 .content img{
     border-radius: 175px;
@@ -176,27 +183,39 @@ body{
     color: #C20114;
 }
 .name{
-    color: #C20114;
+    color: #FEEFEA;
     margin-left: 36rem;
     margin-top: -21rem;
     font-size: 53px;
     /*margin-bottom: 10rem;*/
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
 }
 .surname{
-    color: #C20114;
+    color: #FEEFEA;
     margin-left: 40rem;
     /*margin-top: rem;*/
     font-size: 53px;
     margin-bottom: 10rem;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
 }
 
 .text-left{
-    margin-left: 10rem;
+    margin-left: 45rem;
+    margin-right: 15rem;
+    margin-top: -5rem;
+    text-align: center;
     justify-content: space-between;
     opacity: 0;
     transform: scale(0.1);
     transition: all 1s ease-in-out;
-    padding-bottom: 5rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    /*background: transparent;*/
+    background-color: rgba(254,239,234, 0.2);
+
+    border-radius: 50px;
 }
 .active{
     opacity: 1;
