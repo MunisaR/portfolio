@@ -192,6 +192,15 @@ body{
 
 .text-left{
     margin-left: 10rem;
+    justify-content: space-between;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+    padding-bottom: 5rem;
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
 }
 
 .aboutpage{
