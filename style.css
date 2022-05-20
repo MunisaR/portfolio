@@ -9,6 +9,7 @@ body{
     font-family: 'Comfortaa', cursive;
     margin: 0;
     padding: 0;
+
 }
 
 /*navbar*/
@@ -47,7 +48,12 @@ body{
     cursor: pointer;
 }
 /*shiny text animation*/
+
+/*.armeum{*/
+/*    background: #030303;*/
+/*}*/
 .text-wrapper{
+    /*background-color: #030303;*/
     text-align: center;
     position: absolute;
     top: 50%;
@@ -84,6 +90,7 @@ body{
 
 /*cube animation*/
 .box-area {
+    /*background-color: #030303;*/
     position: absolute;
     top: 0;
     left: 0;
@@ -102,6 +109,7 @@ body{
     bottom: -150px;
 }
 .box-area li:nth-child(1) {
+    /*background-color: #030303;*/
     left: 86%;
     width: 80px;
     height: 80px;
@@ -151,6 +159,45 @@ body{
 }
 /*cube animation*/
 
+/*aboutpage*/
+.content {
+    color: aliceblue;
+}
+.content img{
+    border-radius: 175px;
+    height: 350px;
+    width: 350px;
+    margin-left: 5rem;
+}
+.content h1{
+    /*text-align: center;*/
+    /*justify-content: center;*/
+    font-size: 70px;
+    color: #C20114;
+}
+.name{
+    color: #C20114;
+    margin-left: 36rem;
+    margin-top: -21rem;
+    font-size: 53px;
+    /*margin-bottom: 10rem;*/
+}
+.surname{
+    color: #C20114;
+    margin-left: 40rem;
+    /*margin-top: rem;*/
+    font-size: 53px;
+    margin-bottom: 10rem;
+}
+
+.text-left{
+    margin-left: 10rem;
+}
+
+.aboutpage{
+    padding-top: 45.5rem;
+
+}
 
 
 
