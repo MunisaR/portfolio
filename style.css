@@ -193,7 +193,7 @@ span{
 }
 .surname{
     color: #FEEFEA;
-    margin-left: 40rem;
+    margin-left: 43rem;
     /*margin-top: rem;*/
     font-size: 53px;
     margin-bottom: 10rem;
@@ -202,8 +202,8 @@ span{
 }
 
 .text-left{
-    margin-left: 45rem;
-    margin-right: 15rem;
+    margin-left: 50rem;
+    margin-right: 12rem;
     margin-top: -5rem;
     text-align: center;
     justify-content: space-between;
